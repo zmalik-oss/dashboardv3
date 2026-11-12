@@ -1,0 +1,26 @@
+# Data
+data/beth/
+*.zip
+
+# Generated output
+artifacts/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Secrets: never commit these
+kaggle.json
+.env
+*.pem
+*.key
+.aws/
+credentials
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

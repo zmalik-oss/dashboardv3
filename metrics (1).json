@@ -1,0 +1,242 @@
+{
+  "framework_test": {
+    "group_medium_plus": {
+      "tp": 52,
+      "fp": 28,
+      "fn": 76,
+      "tn": 102,
+      "precision": 0.65,
+      "recall": 0.4062,
+      "f1": 0.5,
+      "alerts": 80,
+      "positives": 128
+    },
+    "event_medium_plus": {
+      "tp": 44936,
+      "fp": 16756,
+      "fn": 113496,
+      "tn": 13779,
+      "precision": 0.7284,
+      "recall": 0.2836,
+      "f1": 0.4083,
+      "alerts": 61692,
+      "positives": 158432
+    },
+    "group_high_only": {
+      "tp": 2,
+      "fp": 7,
+      "fn": 126,
+      "tn": 123,
+      "precision": 0.2222,
+      "recall": 0.0156,
+      "f1": 0.0292,
+      "alerts": 9,
+      "positives": 128
+    },
+    "event_high_only": {
+      "tp": 41100,
+      "fp": 5970,
+      "fn": 117332,
+      "tn": 24565,
+      "precision": 0.8732,
+      "recall": 0.2594,
+      "f1": 0.4,
+      "alerts": 47070,
+      "positives": 158432
+    },
+    "workload": {
+      "groups": 258,
+      "low": 178,
+      "medium": 71,
+      "high": 9,
+      "pct_auto_logged": 0.6899,
+      "groups_needing_review": 80,
+      "events": 188967,
+      "events_auto_logged": 127275,
+      "review_reduction_vs_all_groups": 0.6899
+    },
+    "disagreements": {
+      "malicious_label_scored_low": 76,
+      "benign_label_scored_high": 7
+    }
+  },
+  "false_alarms_validation": {
+    "groups": 575,
+    "group_alert_rate_medium_plus": 0.01913,
+    "group_alert_rate_high": 0.0,
+    "event_alert_rate_medium_plus": 0.00269,
+    "event_alert_rate_high": 0.0
+  },
+  "baseline_sus": {
+    "tp": 158432,
+    "fp": 13027,
+    "fn": 0,
+    "tn": 17508,
+    "precision": 0.924,
+    "recall": 1.0,
+    "f1": 0.9605,
+    "alerts": 171459,
+    "positives": 158432
+  },
+  "baseline_iforest": {
+    "tp": 148274,
+    "fp": 1307,
+    "fn": 10158,
+    "tn": 29228,
+    "precision": 0.9913,
+    "recall": 0.9359,
+    "f1": 0.9628,
+    "alerts": 149581,
+    "positives": 158432,
+    "alert_rate_budget": 0.00269
+  },
+  "sweep_test": [
+    {
+      "threshold": 0,
+      "alert_rate": 1.0,
+      "precision": 0.4961,
+      "recall": 1.0,
+      "f1": 0.6632
+    },
+    {
+      "threshold": 5,
+      "alert_rate": 0.82171,
+      "precision": 0.5566,
+      "recall": 0.9219,
+      "f1": 0.6941
+    },
+    {
+      "threshold": 10,
+      "alert_rate": 0.80233,
+      "precision": 0.57,
+      "recall": 0.9219,
+      "f1": 0.7045
+    },
+    {
+      "threshold": 15,
+      "alert_rate": 0.63566,
+      "precision": 0.7134,
+      "recall": 0.9141,
+      "f1": 0.8014
+    },
+    {
+      "threshold": 20,
+      "alert_rate": 0.63566,
+      "precision": 0.7134,
+      "recall": 0.9141,
+      "f1": 0.8014
+    },
+    {
+      "threshold": 25,
+      "alert_rate": 0.63566,
+      "precision": 0.7134,
+      "recall": 0.9141,
+      "f1": 0.8014
+    },
+    {
+      "threshold": 30,
+      "alert_rate": 0.62791,
+      "precision": 0.7222,
+      "recall": 0.9141,
+      "f1": 0.8069
+    },
+    {
+      "threshold": 35,
+      "alert_rate": 0.37209,
+      "precision": 0.7083,
+      "recall": 0.5312,
+      "f1": 0.6071
+    },
+    {
+      "threshold": 40,
+      "alert_rate": 0.31008,
+      "precision": 0.65,
+      "recall": 0.4062,
+      "f1": 0.5
+    },
+    {
+      "threshold": 45,
+      "alert_rate": 0.15116,
+      "precision": 0.5385,
+      "recall": 0.1641,
+      "f1": 0.2515
+    },
+    {
+      "threshold": 50,
+      "alert_rate": 0.09302,
+      "precision": 0.2917,
+      "recall": 0.0547,
+      "f1": 0.0921
+    },
+    {
+      "threshold": 55,
+      "alert_rate": 0.06589,
+      "precision": 0.1765,
+      "recall": 0.0234,
+      "f1": 0.0414
+    },
+    {
+      "threshold": 60,
+      "alert_rate": 0.05814,
+      "precision": 0.2,
+      "recall": 0.0234,
+      "f1": 0.042
+    },
+    {
+      "threshold": 65,
+      "alert_rate": 0.03876,
+      "precision": 0.2,
+      "recall": 0.0156,
+      "f1": 0.029
+    },
+    {
+      "threshold": 70,
+      "alert_rate": 0.03488,
+      "precision": 0.2222,
+      "recall": 0.0156,
+      "f1": 0.0292
+    },
+    {
+      "threshold": 75,
+      "alert_rate": 0.02713,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "threshold": 80,
+      "alert_rate": 0.00388,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "threshold": 85,
+      "alert_rate": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "threshold": 90,
+      "alert_rate": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "threshold": 95,
+      "alert_rate": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "threshold": 100,
+      "alert_rate": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  ]
+}

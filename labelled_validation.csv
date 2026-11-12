@@ -1,0 +1,1101 @@
+timestamp,processId,threadId,parentProcessId,userId,mountNamespace,processName,hostName,eventId,eventName,stackAddresses,argsNum,returnValue,args,sus,evil
+100.004035,2006,2006,1,33,4026531840,nginx,ip-10-100-1-4,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+100.009878,2006,2006,1,33,4026531840,nginx,ip-10-100-1-4,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+100.018275,2006,2006,1,33,4026531840,nginx,ip-10-100-1-4,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+121.828643,2008,2008,1,0,4026531840,rsyslogd,ip-10-100-1-1,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+121.831203,2008,2008,1,0,4026531840,rsyslogd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+159.435244,2014,2014,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+159.43721,2014,2014,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+159.448772,2014,2014,1,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+191.012855,2017,2017,1400,1000,4026531840,bash,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+191.018458,2017,2017,1400,1000,4026531840,bash,ip-10-100-1-3,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+191.028966,2017,2017,1400,1000,4026531840,bash,ip-10-100-1-3,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+191.032074,2017,2017,1400,1000,4026531840,bash,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+222.035272,2019,2019,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+222.038792,2019,2019,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+222.046002,2019,2019,1,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+243.111786,2022,2022,1,0,4026531840,rsyslogd,ip-10-100-1-2,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+243.113942,2022,2022,1,0,4026531840,rsyslogd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+279.528869,2027,2027,1,33,4026531840,nginx,ip-10-100-1-4,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+279.538164,2027,2027,1,33,4026531840,nginx,ip-10-100-1-4,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+279.552209,2027,2027,1,33,4026531840,nginx,ip-10-100-1-4,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+311.16306,2033,2033,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+311.178016,2033,2033,1326,0,4026531840,sshd,ip-10-100-1-4,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2033'}]",0,0
+311.19383,2033,2033,1326,0,4026531840,sshd,ip-10-100-1-4,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2033'}]",0,0
+311.198392,2033,2033,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+311.204448,2033,2033,1326,0,4026531840,sshd,ip-10-100-1-4,239,sched_process_exit,[1401],0,0,[],0,0
+349.474846,2036,2036,1400,1000,4026531840,sudo,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+349.494306,2036,2036,1400,0,4026531840,sudo,ip-10-100-1-3,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+349.505446,2036,2036,1400,0,4026531840,sudo,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+387.496233,2041,2041,1,0,4026531840,rsyslogd,ip-10-100-1-2,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+387.504655,2041,2041,1,0,4026531840,rsyslogd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+399.821193,2049,2049,1,33,4026531840,nginx,ip-10-100-1-4,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+399.82968,2049,2049,1,33,4026531840,nginx,ip-10-100-1-4,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+399.831344,2049,2049,1,33,4026531840,nginx,ip-10-100-1-4,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+419.727016,2054,2054,1,0,4026531840,cron,ip-10-100-1-3,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+419.728541,2054,2054,1,0,4026531840,cron,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+459.508649,2055,2055,1,0,4026531840,cron,ip-10-100-1-1,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+459.518178,2055,2055,1,0,4026531840,cron,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+497.857967,2062,2062,1,0,4026531840,cron,ip-10-100-1-1,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+497.868512,2062,2062,1,0,4026531840,cron,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+537.484028,2068,2068,1,0,4026531840,cron,ip-10-100-1-3,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+537.491104,2068,2068,1,0,4026531840,cron,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+548.769214,2071,2071,1400,1000,4026531840,bash,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+548.781165,2071,2071,1400,1000,4026531840,bash,ip-10-100-1-2,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+548.799886,2071,2071,1400,1000,4026531840,bash,ip-10-100-1-2,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+548.8152,2071,2071,1400,1000,4026531840,bash,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+570.578722,2072,2072,1,33,4026531840,nginx,ip-10-100-1-2,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+570.592319,2072,2072,1,33,4026531840,nginx,ip-10-100-1-2,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+570.605682,2072,2072,1,33,4026531840,nginx,ip-10-100-1-2,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+580.56611,2076,2076,1,0,4026531840,cron,ip-10-100-1-3,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+580.576154,2076,2076,1,0,4026531840,cron,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+594.132154,2079,2079,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+594.148035,2079,2079,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+594.163122,2079,2079,1,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+620.869901,2084,2084,1,33,4026531840,nginx,ip-10-100-1-4,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+620.876403,2084,2084,1,33,4026531840,nginx,ip-10-100-1-4,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+620.893744,2084,2084,1,33,4026531840,nginx,ip-10-100-1-4,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+643.219984,2086,2086,1,0,4026531840,cron,ip-10-100-1-4,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+643.229321,2086,2086,1,0,4026531840,cron,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+655.589939,2088,2088,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+655.603611,2088,2088,1326,0,4026531840,sshd,ip-10-100-1-3,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2088'}]",0,0
+655.611484,2088,2088,1326,0,4026531840,sshd,ip-10-100-1-3,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2088'}]",0,0
+655.623369,2088,2088,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+655.62823,2088,2088,1326,0,4026531840,sshd,ip-10-100-1-3,239,sched_process_exit,[1401],0,0,[],0,0
+680.384045,2091,2091,1,0,4026531840,cron,ip-10-100-1-2,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+680.385701,2091,2091,1,0,4026531840,cron,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+705.931849,2096,2096,1,33,4026531840,nginx,ip-10-100-1-2,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+705.940464,2096,2096,1,33,4026531840,nginx,ip-10-100-1-2,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+705.95947,2096,2096,1,33,4026531840,nginx,ip-10-100-1-2,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+739.534401,2098,2098,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+739.549053,2098,2098,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+739.554077,2098,2098,1,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+757.626611,2099,2099,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+757.638553,2099,2099,1326,0,4026531840,sshd,ip-10-100-1-1,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2099'}]",0,0
+757.651724,2099,2099,1326,0,4026531840,sshd,ip-10-100-1-1,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2099'}]",0,0
+757.652934,2099,2099,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+757.669372,2099,2099,1326,0,4026531840,sshd,ip-10-100-1-1,239,sched_process_exit,[1401],0,0,[],0,0
+776.205054,2101,2101,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+776.222143,2101,2101,1326,0,4026531840,sshd,ip-10-100-1-4,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2101'}]",0,0
+776.239663,2101,2101,1326,0,4026531840,sshd,ip-10-100-1-4,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2101'}]",0,0
+776.253612,2101,2101,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+776.264422,2101,2101,1326,0,4026531840,sshd,ip-10-100-1-4,239,sched_process_exit,[1401],0,0,[],0,0
+790.755167,2108,2108,1,33,4026531840,nginx,ip-10-100-1-1,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+790.758975,2108,2108,1,33,4026531840,nginx,ip-10-100-1-1,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+790.762747,2108,2108,1,33,4026531840,nginx,ip-10-100-1-1,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+821.478202,2114,2114,1,33,4026531840,nginx,ip-10-100-1-4,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+821.484009,2114,2114,1,33,4026531840,nginx,ip-10-100-1-4,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+821.498195,2114,2114,1,33,4026531840,nginx,ip-10-100-1-4,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+835.872814,2115,2115,1400,1000,4026531840,sudo,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+835.883091,2115,2115,1400,0,4026531840,sudo,ip-10-100-1-3,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+835.897316,2115,2115,1400,0,4026531840,sudo,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+851.120719,2122,2122,1,0,4026531840,cron,ip-10-100-1-3,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+851.131643,2122,2122,1,0,4026531840,cron,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+878.438792,2129,2129,1,0,4026531840,rsyslogd,ip-10-100-1-2,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+878.452994,2129,2129,1,0,4026531840,rsyslogd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+893.208365,2131,2131,1,0,4026531840,rsyslogd,ip-10-100-1-4,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+893.225036,2131,2131,1,0,4026531840,rsyslogd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+908.87684,2133,2133,1,0,4026531840,rsyslogd,ip-10-100-1-4,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+908.887455,2133,2133,1,0,4026531840,rsyslogd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+945.244311,2141,2141,1400,1000,4026531840,bash,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+945.263755,2141,2141,1400,1000,4026531840,bash,ip-10-100-1-4,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+945.276489,2141,2141,1400,1000,4026531840,bash,ip-10-100-1-4,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+945.289208,2141,2141,1400,1000,4026531840,bash,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+968.306347,2145,2145,1,0,4026531840,cron,ip-10-100-1-3,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+968.310419,2145,2145,1,0,4026531840,cron,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+984.003297,2149,2149,1,0,4026531840,cron,ip-10-100-1-4,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+984.015648,2149,2149,1,0,4026531840,cron,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+998.44896,2152,2152,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+998.456103,2152,2152,1326,0,4026531840,sshd,ip-10-100-1-3,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2152'}]",0,0
+998.467959,2152,2152,1326,0,4026531840,sshd,ip-10-100-1-3,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2152'}]",0,0
+998.481515,2152,2152,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+998.496195,2152,2152,1326,0,4026531840,sshd,ip-10-100-1-3,239,sched_process_exit,[1401],0,0,[],0,0
+1019.23209,2153,2153,1400,1000,4026531840,bash,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+1019.247698,2153,2153,1400,1000,4026531840,bash,ip-10-100-1-3,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1019.25095,2153,2153,1400,1000,4026531840,bash,ip-10-100-1-3,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+1019.259287,2153,2153,1400,1000,4026531840,bash,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+1054.692972,2161,2161,1,0,4026531840,cron,ip-10-100-1-4,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1054.703234,2161,2161,1,0,4026531840,cron,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+1080.252772,2165,2165,1400,1000,4026531840,sudo,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1080.271722,2165,2165,1400,0,4026531840,sudo,ip-10-100-1-1,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+1080.28426,2165,2165,1400,0,4026531840,sudo,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+1104.316936,2171,2171,1400,1000,4026531840,bash,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+1104.319898,2171,2171,1400,1000,4026531840,bash,ip-10-100-1-4,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1104.324228,2171,2171,1400,1000,4026531840,bash,ip-10-100-1-4,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+1104.326266,2171,2171,1400,1000,4026531840,bash,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+1126.565139,2173,2173,1400,1000,4026531840,sudo,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1126.578135,2173,2173,1400,0,4026531840,sudo,ip-10-100-1-1,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+1126.580553,2173,2173,1400,0,4026531840,sudo,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+1145.329987,2180,2180,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+1145.342488,2180,2180,1326,0,4026531840,sshd,ip-10-100-1-3,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2180'}]",0,0
+1145.361813,2180,2180,1326,0,4026531840,sshd,ip-10-100-1-3,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2180'}]",0,0
+1145.376806,2180,2180,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+1145.383028,2180,2180,1326,0,4026531840,sshd,ip-10-100-1-3,239,sched_process_exit,[1401],0,0,[],0,0
+1183.540738,2181,2181,1,0,4026531840,rsyslogd,ip-10-100-1-4,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+1183.552841,2181,2181,1,0,4026531840,rsyslogd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+1199.443607,2190,2190,1400,1000,4026531840,bash,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+1199.454264,2190,2190,1400,1000,4026531840,bash,ip-10-100-1-1,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1199.462883,2190,2190,1400,1000,4026531840,bash,ip-10-100-1-1,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+1199.47241,2190,2190,1400,1000,4026531840,bash,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+1222.655664,2193,2193,1400,1000,4026531840,bash,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+1222.668339,2193,2193,1400,1000,4026531840,bash,ip-10-100-1-1,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1222.684684,2193,2193,1400,1000,4026531840,bash,ip-10-100-1-1,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+1222.688937,2193,2193,1400,1000,4026531840,bash,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+1241.24984,2198,2198,1,0,4026531840,rsyslogd,ip-10-100-1-4,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+1241.259326,2198,2198,1,0,4026531840,rsyslogd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+1255.113353,2201,2201,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+1255.115414,2201,2201,1326,0,4026531840,sshd,ip-10-100-1-3,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2201'}]",0,0
+1255.124017,2201,2201,1326,0,4026531840,sshd,ip-10-100-1-3,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2201'}]",0,0
+1255.143177,2201,2201,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+1255.145518,2201,2201,1326,0,4026531840,sshd,ip-10-100-1-3,239,sched_process_exit,[1401],0,0,[],0,0
+1271.044393,2209,2209,1,0,4026531840,rsyslogd,ip-10-100-1-4,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+1271.063311,2209,2209,1,0,4026531840,rsyslogd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+1294.339425,2211,2211,1,0,4026531840,cron,ip-10-100-1-1,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1294.345978,2211,2211,1,0,4026531840,cron,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+1308.156838,2213,2213,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1308.171488,2213,2213,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1308.178618,2213,2213,1,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+1323.786332,2217,2217,1,0,4026531840,cron,ip-10-100-1-4,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1323.79454,2217,2217,1,0,4026531840,cron,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+1348.442024,2222,2222,1400,1000,4026531840,bash,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+1348.452354,2222,2222,1400,1000,4026531840,bash,ip-10-100-1-1,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1348.454104,2222,2222,1400,1000,4026531840,bash,ip-10-100-1-1,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+1348.456899,2222,2222,1400,1000,4026531840,bash,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+1379.778106,2227,2227,1400,1000,4026531840,bash,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+1379.781106,2227,2227,1400,1000,4026531840,bash,ip-10-100-1-3,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1379.798675,2227,2227,1400,1000,4026531840,bash,ip-10-100-1-3,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+1379.807739,2227,2227,1400,1000,4026531840,bash,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+1402.21823,2230,2230,1400,1000,4026531840,sudo,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1402.226636,2230,2230,1400,0,4026531840,sudo,ip-10-100-1-1,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+1402.244698,2230,2230,1400,0,4026531840,sudo,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+1431.705619,2237,2237,1400,1000,4026531840,bash,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+1431.715551,2237,2237,1400,1000,4026531840,bash,ip-10-100-1-1,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1431.7294,2237,2237,1400,1000,4026531840,bash,ip-10-100-1-1,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+1431.738341,2237,2237,1400,1000,4026531840,bash,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+1443.783619,2239,2239,1,0,4026531840,rsyslogd,ip-10-100-1-2,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+1443.78844,2239,2239,1,0,4026531840,rsyslogd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+1471.217856,2242,2242,1,0,4026531840,rsyslogd,ip-10-100-1-2,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+1471.218879,2242,2242,1,0,4026531840,rsyslogd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+1507.693654,2248,2248,1400,1000,4026531840,sudo,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1507.704252,2248,2248,1400,0,4026531840,sudo,ip-10-100-1-1,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+1507.715931,2248,2248,1400,0,4026531840,sudo,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+1543.156131,2253,2253,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1543.17454,2253,2253,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1543.186787,2253,2253,1,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+1580.060872,2257,2257,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+1580.064902,2257,2257,1326,0,4026531840,sshd,ip-10-100-1-1,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2257'}]",0,0
+1580.068691,2257,2257,1326,0,4026531840,sshd,ip-10-100-1-1,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2257'}]",0,0
+1580.075169,2257,2257,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+1580.093793,2257,2257,1326,0,4026531840,sshd,ip-10-100-1-1,239,sched_process_exit,[1401],0,0,[],0,0
+1600.506263,2265,2265,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1600.514572,2265,2265,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1600.533078,2265,2265,1,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+1622.479867,2273,2273,1400,1000,4026531840,bash,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+1622.499478,2273,2273,1400,1000,4026531840,bash,ip-10-100-1-2,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1622.517755,2273,2273,1400,1000,4026531840,bash,ip-10-100-1-2,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+1622.529753,2273,2273,1400,1000,4026531840,bash,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+1633.794745,2282,2282,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1633.803827,2282,2282,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1633.818602,2282,2282,1,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+1673.726185,2288,2288,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1673.730537,2288,2288,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1673.732772,2288,2288,1,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+1697.300654,2289,2289,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1697.318556,2289,2289,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1697.325616,2289,2289,1,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+1713.336613,2295,2295,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1713.350202,2295,2295,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1713.358021,2295,2295,1,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+1724.004567,2299,2299,1,33,4026531840,nginx,ip-10-100-1-2,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+1724.017493,2299,2299,1,33,4026531840,nginx,ip-10-100-1-2,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+1724.026458,2299,2299,1,33,4026531840,nginx,ip-10-100-1-2,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+1738.173404,2301,2301,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+1738.183906,2301,2301,1326,0,4026531840,sshd,ip-10-100-1-4,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2301'}]",0,0
+1738.189204,2301,2301,1326,0,4026531840,sshd,ip-10-100-1-4,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2301'}]",0,0
+1738.191304,2301,2301,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+1738.198532,2301,2301,1326,0,4026531840,sshd,ip-10-100-1-4,239,sched_process_exit,[1401],0,0,[],0,0
+1757.602744,2308,2308,1,0,4026531840,rsyslogd,ip-10-100-1-2,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+1757.609842,2308,2308,1,0,4026531840,rsyslogd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+1795.032643,2313,2313,1,0,4026531840,cron,ip-10-100-1-2,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1795.038784,2313,2313,1,0,4026531840,cron,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+1829.577235,2322,2322,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1829.593484,2322,2322,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1829.600097,2322,2322,1,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+1842.1048,2331,2331,1400,1000,4026531840,sudo,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1842.119038,2331,2331,1400,0,4026531840,sudo,ip-10-100-1-2,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+1842.13374,2331,2331,1400,0,4026531840,sudo,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+1874.502655,2334,2334,1,0,4026531840,rsyslogd,ip-10-100-1-3,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+1874.517401,2334,2334,1,0,4026531840,rsyslogd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+1903.946001,2340,2340,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+1903.959976,2340,2340,1326,0,4026531840,sshd,ip-10-100-1-3,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2340'}]",0,0
+1903.967888,2340,2340,1326,0,4026531840,sshd,ip-10-100-1-3,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2340'}]",0,0
+1903.977339,2340,2340,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+1903.989998,2340,2340,1326,0,4026531840,sshd,ip-10-100-1-3,239,sched_process_exit,[1401],0,0,[],0,0
+1919.337054,2349,2349,1400,1000,4026531840,sudo,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1919.348152,2349,2349,1400,0,4026531840,sudo,ip-10-100-1-3,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+1919.367354,2349,2349,1400,0,4026531840,sudo,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+1951.731025,2350,2350,1,33,4026531840,nginx,ip-10-100-1-3,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+1951.741619,2350,2350,1,33,4026531840,nginx,ip-10-100-1-3,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+1951.747814,2350,2350,1,33,4026531840,nginx,ip-10-100-1-3,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+1959.775252,2358,2358,1,0,4026531840,cron,ip-10-100-1-4,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+1959.794543,2358,2358,1,0,4026531840,cron,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+1987.859534,2367,2367,1,0,4026531840,rsyslogd,ip-10-100-1-2,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+1987.873684,2367,2367,1,0,4026531840,rsyslogd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+2000.013534,2376,2376,1400,1000,4026531840,bash,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+2000.030445,2376,2376,1400,1000,4026531840,bash,ip-10-100-1-1,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2000.042064,2376,2376,1400,1000,4026531840,bash,ip-10-100-1-1,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2000.055055,2376,2376,1400,1000,4026531840,bash,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2032.819916,2385,2385,1400,1000,4026531840,bash,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+2032.835262,2385,2385,1400,1000,4026531840,bash,ip-10-100-1-2,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2032.843965,2385,2385,1400,1000,4026531840,bash,ip-10-100-1-2,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2032.862871,2385,2385,1400,1000,4026531840,bash,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2057.47655,2392,2392,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+2057.492484,2392,2392,1326,0,4026531840,sshd,ip-10-100-1-4,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2392'}]",0,0
+2057.509463,2392,2392,1326,0,4026531840,sshd,ip-10-100-1-4,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2392'}]",0,0
+2057.520532,2392,2392,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+2057.529611,2392,2392,1326,0,4026531840,sshd,ip-10-100-1-4,239,sched_process_exit,[1401],0,0,[],0,0
+2092.117935,2401,2401,1400,1000,4026531840,bash,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+2092.120115,2401,2401,1400,1000,4026531840,bash,ip-10-100-1-4,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2092.131221,2401,2401,1400,1000,4026531840,bash,ip-10-100-1-4,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2092.148918,2401,2401,1400,1000,4026531840,bash,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2125.053271,2405,2405,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2125.061654,2405,2405,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2125.068675,2405,2405,1,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+2141.499301,2411,2411,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2141.50479,2411,2411,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2141.513229,2411,2411,1,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+2157.877492,2419,2419,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2157.890327,2419,2419,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2157.907633,2419,2419,1,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+2195.090865,2425,2425,1,0,4026531840,cron,ip-10-100-1-2,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2195.094909,2425,2425,1,0,4026531840,cron,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+2210.502299,2426,2426,1400,1000,4026531840,bash,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+2210.507642,2426,2426,1400,1000,4026531840,bash,ip-10-100-1-4,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2210.526177,2426,2426,1400,1000,4026531840,bash,ip-10-100-1-4,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2210.52907,2426,2426,1400,1000,4026531840,bash,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2239.75173,2431,2431,1,33,4026531840,nginx,ip-10-100-1-1,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2239.761932,2431,2431,1,33,4026531840,nginx,ip-10-100-1-1,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2239.769866,2431,2431,1,33,4026531840,nginx,ip-10-100-1-1,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2250.952306,2440,2440,1,0,4026531840,rsyslogd,ip-10-100-1-3,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+2250.965679,2440,2440,1,0,4026531840,rsyslogd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+2282.728256,2443,2443,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+2282.735847,2443,2443,1326,0,4026531840,sshd,ip-10-100-1-1,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2443'}]",0,0
+2282.743518,2443,2443,1326,0,4026531840,sshd,ip-10-100-1-1,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2443'}]",0,0
+2282.749729,2443,2443,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+2282.76567,2443,2443,1326,0,4026531840,sshd,ip-10-100-1-1,239,sched_process_exit,[1401],0,0,[],0,0
+2312.749889,2444,2444,1400,1000,4026531840,bash,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+2312.751057,2444,2444,1400,1000,4026531840,bash,ip-10-100-1-2,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2312.768862,2444,2444,1400,1000,4026531840,bash,ip-10-100-1-2,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2312.778756,2444,2444,1400,1000,4026531840,bash,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2332.561062,2448,2448,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2332.574881,2448,2448,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2332.582246,2448,2448,1,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+2369.818434,2455,2455,1,33,4026531840,nginx,ip-10-100-1-2,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2369.827594,2455,2455,1,33,4026531840,nginx,ip-10-100-1-2,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2369.830022,2455,2455,1,33,4026531840,nginx,ip-10-100-1-2,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2388.383894,2464,2464,1400,1000,4026531840,bash,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+2388.390463,2464,2464,1400,1000,4026531840,bash,ip-10-100-1-4,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2388.397323,2464,2464,1400,1000,4026531840,bash,ip-10-100-1-4,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2388.404469,2464,2464,1400,1000,4026531840,bash,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2405.234649,2465,2465,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2405.250346,2465,2465,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2405.25196,2465,2465,1,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+2419.4248,2474,2474,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+2419.441721,2474,2474,1326,0,4026531840,sshd,ip-10-100-1-1,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2474'}]",0,0
+2419.451756,2474,2474,1326,0,4026531840,sshd,ip-10-100-1-1,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2474'}]",0,0
+2419.464429,2474,2474,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+2419.467977,2474,2474,1326,0,4026531840,sshd,ip-10-100-1-1,239,sched_process_exit,[1401],0,0,[],0,0
+2457.899945,2482,2482,1400,1000,4026531840,bash,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+2457.911464,2482,2482,1400,1000,4026531840,bash,ip-10-100-1-1,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2457.917922,2482,2482,1400,1000,4026531840,bash,ip-10-100-1-1,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2457.929418,2482,2482,1400,1000,4026531840,bash,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2477.180001,2487,2487,1400,1000,4026531840,sudo,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2477.186844,2487,2487,1400,0,4026531840,sudo,ip-10-100-1-3,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+2477.198033,2487,2487,1400,0,4026531840,sudo,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+2492.922122,2489,2489,1400,1000,4026531840,bash,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+2492.924043,2489,2489,1400,1000,4026531840,bash,ip-10-100-1-2,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2492.927225,2489,2489,1400,1000,4026531840,bash,ip-10-100-1-2,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2492.945115,2489,2489,1400,1000,4026531840,bash,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2529.799991,2496,2496,1,33,4026531840,nginx,ip-10-100-1-1,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2529.815373,2496,2496,1,33,4026531840,nginx,ip-10-100-1-1,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2529.832464,2496,2496,1,33,4026531840,nginx,ip-10-100-1-1,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2559.774008,2502,2502,1400,1000,4026531840,sudo,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2559.787909,2502,2502,1400,0,4026531840,sudo,ip-10-100-1-4,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+2559.798627,2502,2502,1400,0,4026531840,sudo,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+2594.352304,2508,2508,1400,1000,4026531840,sudo,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2594.359148,2508,2508,1400,0,4026531840,sudo,ip-10-100-1-4,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+2594.369109,2508,2508,1400,0,4026531840,sudo,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+2602.38378,2512,2512,1400,1000,4026531840,sudo,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2602.396765,2512,2512,1400,0,4026531840,sudo,ip-10-100-1-1,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+2602.415169,2512,2512,1400,0,4026531840,sudo,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+2612.038728,2515,2515,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2612.041791,2515,2515,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2612.06008,2515,2515,1,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+2636.848644,2523,2523,1400,1000,4026531840,bash,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+2636.85513,2523,2523,1400,1000,4026531840,bash,ip-10-100-1-3,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2636.872708,2523,2523,1400,1000,4026531840,bash,ip-10-100-1-3,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2636.87948,2523,2523,1400,1000,4026531840,bash,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2649.881623,2531,2531,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2649.888185,2531,2531,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2649.892636,2531,2531,1,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+2670.788077,2536,2536,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2670.791373,2536,2536,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2670.806116,2536,2536,1,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+2685.84362,2543,2543,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+2685.860284,2543,2543,1326,0,4026531840,sshd,ip-10-100-1-2,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2543'}]",0,0
+2685.877862,2543,2543,1326,0,4026531840,sshd,ip-10-100-1-2,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2543'}]",0,0
+2685.890534,2543,2543,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+2685.894886,2543,2543,1326,0,4026531840,sshd,ip-10-100-1-2,239,sched_process_exit,[1401],0,0,[],0,0
+2702.181361,2551,2551,1400,1000,4026531840,bash,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+2702.187063,2551,2551,1400,1000,4026531840,bash,ip-10-100-1-2,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2702.1953,2551,2551,1400,1000,4026531840,bash,ip-10-100-1-2,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2702.204067,2551,2551,1400,1000,4026531840,bash,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2738.097632,2558,2558,1,33,4026531840,nginx,ip-10-100-1-1,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2738.098669,2558,2558,1,33,4026531840,nginx,ip-10-100-1-1,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2738.11283,2558,2558,1,33,4026531840,nginx,ip-10-100-1-1,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2749.590218,2561,2561,1,33,4026531840,nginx,ip-10-100-1-3,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2749.593506,2561,2561,1,33,4026531840,nginx,ip-10-100-1-3,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2749.599745,2561,2561,1,33,4026531840,nginx,ip-10-100-1-3,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2758.790927,2566,2566,1400,1000,4026531840,bash,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+2758.799776,2566,2566,1400,1000,4026531840,bash,ip-10-100-1-2,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2758.801963,2566,2566,1400,1000,4026531840,bash,ip-10-100-1-2,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2758.809331,2566,2566,1400,1000,4026531840,bash,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2782.829307,2569,2569,1400,1000,4026531840,sudo,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2782.832773,2569,2569,1400,0,4026531840,sudo,ip-10-100-1-4,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+2782.846343,2569,2569,1400,0,4026531840,sudo,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+2795.01013,2577,2577,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2795.026807,2577,2577,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2795.038808,2577,2577,1,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+2814.039606,2581,2581,1400,1000,4026531840,bash,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+2814.044161,2581,2581,1400,1000,4026531840,bash,ip-10-100-1-2,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2814.051069,2581,2581,1400,1000,4026531840,bash,ip-10-100-1-2,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2814.05285,2581,2581,1400,1000,4026531840,bash,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2837.10793,2584,2584,1,33,4026531840,nginx,ip-10-100-1-4,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2837.127429,2584,2584,1,33,4026531840,nginx,ip-10-100-1-4,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2837.140434,2584,2584,1,33,4026531840,nginx,ip-10-100-1-4,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2873.307654,2591,2591,1400,1000,4026531840,bash,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+2873.322435,2591,2591,1400,1000,4026531840,bash,ip-10-100-1-3,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2873.333218,2591,2591,1400,1000,4026531840,bash,ip-10-100-1-3,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2873.344971,2591,2591,1400,1000,4026531840,bash,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2903.498825,2598,2598,1400,1000,4026531840,bash,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+2903.501332,2598,2598,1400,1000,4026531840,bash,ip-10-100-1-2,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2903.506283,2598,2598,1400,1000,4026531840,bash,ip-10-100-1-2,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2903.526274,2598,2598,1400,1000,4026531840,bash,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2911.959949,2601,2601,1,33,4026531840,nginx,ip-10-100-1-3,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2911.975797,2601,2601,1,33,4026531840,nginx,ip-10-100-1-3,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2911.989333,2601,2601,1,33,4026531840,nginx,ip-10-100-1-3,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2950.381689,2604,2604,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2950.400725,2604,2604,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2950.416045,2604,2604,1,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+2976.609714,2611,2611,1,33,4026531840,nginx,ip-10-100-1-2,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2976.61898,2611,2611,1,33,4026531840,nginx,ip-10-100-1-2,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2976.629878,2611,2611,1,33,4026531840,nginx,ip-10-100-1-2,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+2994.265366,2618,2618,1400,1000,4026531840,bash,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+2994.273443,2618,2618,1400,1000,4026531840,bash,ip-10-100-1-2,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+2994.279428,2618,2618,1400,1000,4026531840,bash,ip-10-100-1-2,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+2994.288811,2618,2618,1400,1000,4026531840,bash,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+3032.221554,2619,2619,1,33,4026531840,nginx,ip-10-100-1-4,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+3032.240873,2619,2619,1,33,4026531840,nginx,ip-10-100-1-4,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+3032.245408,2619,2619,1,33,4026531840,nginx,ip-10-100-1-4,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+3047.249407,2622,2622,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3047.255228,2622,2622,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3047.268785,2622,2622,1,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+3081.055654,2624,2624,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+3081.071533,2624,2624,1326,0,4026531840,sshd,ip-10-100-1-1,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2624'}]",0,0
+3081.073961,2624,2624,1326,0,4026531840,sshd,ip-10-100-1-1,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2624'}]",0,0
+3081.090737,2624,2624,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+3081.1055,2624,2624,1326,0,4026531840,sshd,ip-10-100-1-1,239,sched_process_exit,[1401],0,0,[],0,0
+3100.328463,2625,2625,1400,1000,4026531840,bash,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+3100.341403,2625,2625,1400,1000,4026531840,bash,ip-10-100-1-2,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3100.356,2625,2625,1400,1000,4026531840,bash,ip-10-100-1-2,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+3100.368995,2625,2625,1400,1000,4026531840,bash,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+3134.308776,2634,2634,1,33,4026531840,nginx,ip-10-100-1-3,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+3134.316408,2634,2634,1,33,4026531840,nginx,ip-10-100-1-3,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+3134.318218,2634,2634,1,33,4026531840,nginx,ip-10-100-1-3,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+3171.129273,2640,2640,1400,1000,4026531840,sudo,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3171.139455,2640,2640,1400,0,4026531840,sudo,ip-10-100-1-1,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+3171.146733,2640,2640,1400,0,4026531840,sudo,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+3184.310368,2643,2643,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3184.321908,2643,2643,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3184.335745,2643,2643,1,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+3205.198477,2644,2644,1,33,4026531840,nginx,ip-10-100-1-3,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+3205.206283,2644,2644,1,33,4026531840,nginx,ip-10-100-1-3,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+3205.209457,2644,2644,1,33,4026531840,nginx,ip-10-100-1-3,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+3229.656113,2653,2653,1400,1000,4026531840,sudo,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3229.665263,2653,2653,1400,0,4026531840,sudo,ip-10-100-1-1,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+3229.679636,2653,2653,1400,0,4026531840,sudo,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+3244.550996,2656,2656,1400,1000,4026531840,sudo,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3244.557621,2656,2656,1400,0,4026531840,sudo,ip-10-100-1-2,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+3244.569532,2656,2656,1400,0,4026531840,sudo,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+3284.340257,2665,2665,1400,1000,4026531840,bash,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+3284.358534,2665,2665,1400,1000,4026531840,bash,ip-10-100-1-1,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3284.364936,2665,2665,1400,1000,4026531840,bash,ip-10-100-1-1,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+3284.380999,2665,2665,1400,1000,4026531840,bash,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+3313.667003,2667,2667,1400,1000,4026531840,bash,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+3313.686386,2667,2667,1400,1000,4026531840,bash,ip-10-100-1-4,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3313.70602,2667,2667,1400,1000,4026531840,bash,ip-10-100-1-4,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+3313.71214,2667,2667,1400,1000,4026531840,bash,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+3342.254733,2673,2673,1400,1000,4026531840,bash,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+3342.266234,2673,2673,1400,1000,4026531840,bash,ip-10-100-1-3,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3342.276282,2673,2673,1400,1000,4026531840,bash,ip-10-100-1-3,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+3342.284056,2673,2673,1400,1000,4026531840,bash,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+3381.100148,2680,2680,1400,1000,4026531840,sudo,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3381.102278,2680,2680,1400,0,4026531840,sudo,ip-10-100-1-4,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+3381.104761,2680,2680,1400,0,4026531840,sudo,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+3415.734497,2688,2688,1400,1000,4026531840,sudo,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3415.743093,2688,2688,1400,0,4026531840,sudo,ip-10-100-1-4,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+3415.75025,2688,2688,1400,0,4026531840,sudo,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+3429.63847,2689,2689,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+3429.654993,2689,2689,1326,0,4026531840,sshd,ip-10-100-1-2,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2689'}]",0,0
+3429.657889,2689,2689,1326,0,4026531840,sshd,ip-10-100-1-2,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2689'}]",0,0
+3429.659517,2689,2689,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+3429.667554,2689,2689,1326,0,4026531840,sshd,ip-10-100-1-2,239,sched_process_exit,[1401],0,0,[],0,0
+3454.095138,2692,2692,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+3454.097102,2692,2692,1326,0,4026531840,sshd,ip-10-100-1-4,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2692'}]",0,0
+3454.108232,2692,2692,1326,0,4026531840,sshd,ip-10-100-1-4,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2692'}]",0,0
+3454.124399,2692,2692,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+3454.129934,2692,2692,1326,0,4026531840,sshd,ip-10-100-1-4,239,sched_process_exit,[1401],0,0,[],0,0
+3492.739375,2701,2701,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+3492.753714,2701,2701,1326,0,4026531840,sshd,ip-10-100-1-3,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2701'}]",0,0
+3492.761876,2701,2701,1326,0,4026531840,sshd,ip-10-100-1-3,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2701'}]",0,0
+3492.769513,2701,2701,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+3492.780507,2701,2701,1326,0,4026531840,sshd,ip-10-100-1-3,239,sched_process_exit,[1401],0,0,[],0,0
+3531.216026,2703,2703,1,0,4026531840,cron,ip-10-100-1-4,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3531.22846,2703,2703,1,0,4026531840,cron,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+3570.609125,2707,2707,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+3570.62407,2707,2707,1326,0,4026531840,sshd,ip-10-100-1-3,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2707'}]",0,0
+3570.631667,2707,2707,1326,0,4026531840,sshd,ip-10-100-1-3,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2707'}]",0,0
+3570.644422,2707,2707,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+3570.648462,2707,2707,1326,0,4026531840,sshd,ip-10-100-1-3,239,sched_process_exit,[1401],0,0,[],0,0
+3592.555988,2709,2709,1,0,4026531840,rsyslogd,ip-10-100-1-3,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+3592.569261,2709,2709,1,0,4026531840,rsyslogd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+3616.510423,2713,2713,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+3616.529403,2713,2713,1326,0,4026531840,sshd,ip-10-100-1-2,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2713'}]",0,0
+3616.546198,2713,2713,1326,0,4026531840,sshd,ip-10-100-1-2,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2713'}]",0,0
+3616.550255,2713,2713,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+3616.56835,2713,2713,1326,0,4026531840,sshd,ip-10-100-1-2,239,sched_process_exit,[1401],0,0,[],0,0
+3633.130629,2721,2721,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+3633.14504,2721,2721,1326,0,4026531840,sshd,ip-10-100-1-4,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2721'}]",0,0
+3633.159162,2721,2721,1326,0,4026531840,sshd,ip-10-100-1-4,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2721'}]",0,0
+3633.173665,2721,2721,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+3633.191437,2721,2721,1326,0,4026531840,sshd,ip-10-100-1-4,239,sched_process_exit,[1401],0,0,[],0,0
+3673.199927,2724,2724,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+3673.201177,2724,2724,1326,0,4026531840,sshd,ip-10-100-1-4,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2724'}]",0,0
+3673.205128,2724,2724,1326,0,4026531840,sshd,ip-10-100-1-4,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2724'}]",0,0
+3673.208993,2724,2724,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+3673.215818,2724,2724,1326,0,4026531840,sshd,ip-10-100-1-4,239,sched_process_exit,[1401],0,0,[],0,0
+3707.082881,2726,2726,1400,1000,4026531840,bash,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+3707.093036,2726,2726,1400,1000,4026531840,bash,ip-10-100-1-1,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3707.112467,2726,2726,1400,1000,4026531840,bash,ip-10-100-1-1,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+3707.131983,2726,2726,1400,1000,4026531840,bash,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+3720.316144,2732,2732,1,33,4026531840,nginx,ip-10-100-1-2,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+3720.325375,2732,2732,1,33,4026531840,nginx,ip-10-100-1-2,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+3720.333311,2732,2732,1,33,4026531840,nginx,ip-10-100-1-2,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+3757.867991,2733,2733,1,0,4026531840,rsyslogd,ip-10-100-1-2,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+3757.883255,2733,2733,1,0,4026531840,rsyslogd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+3785.628754,2742,2742,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3785.645586,2742,2742,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3785.652138,2742,2742,1,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+3802.949424,2751,2751,1,0,4026531840,rsyslogd,ip-10-100-1-1,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+3802.963345,2751,2751,1,0,4026531840,rsyslogd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+3816.912862,2758,2758,1,0,4026531840,cron,ip-10-100-1-3,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3816.915372,2758,2758,1,0,4026531840,cron,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+3830.871003,2766,2766,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+3830.879453,2766,2766,1326,0,4026531840,sshd,ip-10-100-1-4,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2766'}]",0,0
+3830.8968,2766,2766,1326,0,4026531840,sshd,ip-10-100-1-4,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2766'}]",0,0
+3830.908971,2766,2766,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+3830.927133,2766,2766,1326,0,4026531840,sshd,ip-10-100-1-4,239,sched_process_exit,[1401],0,0,[],0,0
+3841.079636,2775,2775,1400,1000,4026531840,bash,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+3841.089014,2775,2775,1400,1000,4026531840,bash,ip-10-100-1-4,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3841.104733,2775,2775,1400,1000,4026531840,bash,ip-10-100-1-4,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+3841.124305,2775,2775,1400,1000,4026531840,bash,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+3850.060116,2780,2780,1,0,4026531840,cron,ip-10-100-1-1,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3850.070057,2780,2780,1,0,4026531840,cron,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+3875.831831,2785,2785,1,0,4026531840,cron,ip-10-100-1-3,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3875.8334,2785,2785,1,0,4026531840,cron,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+3893.405149,2790,2790,1400,1000,4026531840,bash,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+3893.419494,2790,2790,1400,1000,4026531840,bash,ip-10-100-1-2,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3893.437844,2790,2790,1400,1000,4026531840,bash,ip-10-100-1-2,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+3893.44025,2790,2790,1400,1000,4026531840,bash,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+3924.299375,2795,2795,1,0,4026531840,rsyslogd,ip-10-100-1-2,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+3924.312912,2795,2795,1,0,4026531840,rsyslogd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+3948.358541,2797,2797,1400,1000,4026531840,sudo,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+3948.373063,2797,2797,1400,0,4026531840,sudo,ip-10-100-1-4,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+3948.376464,2797,2797,1400,0,4026531840,sudo,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+3983.711209,2803,2803,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+3983.721003,2803,2803,1326,0,4026531840,sshd,ip-10-100-1-1,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2803'}]",0,0
+3983.735517,2803,2803,1326,0,4026531840,sshd,ip-10-100-1-1,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2803'}]",0,0
+3983.748117,2803,2803,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+3983.764991,2803,2803,1326,0,4026531840,sshd,ip-10-100-1-1,239,sched_process_exit,[1401],0,0,[],0,0
+4001.101343,2805,2805,1,0,4026531840,rsyslogd,ip-10-100-1-4,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+4001.113999,2805,2805,1,0,4026531840,rsyslogd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+4029.865587,2814,2814,1400,1000,4026531840,sudo,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4029.872502,2814,2814,1400,0,4026531840,sudo,ip-10-100-1-3,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+4029.890508,2814,2814,1400,0,4026531840,sudo,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+4055.168106,2818,2818,1400,1000,4026531840,bash,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+4055.171168,2818,2818,1400,1000,4026531840,bash,ip-10-100-1-3,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4055.182803,2818,2818,1400,1000,4026531840,bash,ip-10-100-1-3,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4055.189635,2818,2818,1400,1000,4026531840,bash,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4069.092403,2820,2820,1,33,4026531840,nginx,ip-10-100-1-3,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4069.102988,2820,2820,1,33,4026531840,nginx,ip-10-100-1-3,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4069.118661,2820,2820,1,33,4026531840,nginx,ip-10-100-1-3,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4101.780239,2827,2827,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4101.782974,2827,2827,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4101.786749,2827,2827,1,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+4133.016141,2836,2836,1,33,4026531840,nginx,ip-10-100-1-2,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4133.031429,2836,2836,1,33,4026531840,nginx,ip-10-100-1-2,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4133.049277,2836,2836,1,33,4026531840,nginx,ip-10-100-1-2,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4158.409037,2841,2841,1,0,4026531840,rsyslogd,ip-10-100-1-1,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+4158.426065,2841,2841,1,0,4026531840,rsyslogd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+4173.574365,2850,2850,1400,1000,4026531840,sudo,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4173.585478,2850,2850,1400,0,4026531840,sudo,ip-10-100-1-3,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+4173.593636,2850,2850,1400,0,4026531840,sudo,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+4201.949122,2852,2852,1400,1000,4026531840,sudo,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4201.954185,2852,2852,1400,0,4026531840,sudo,ip-10-100-1-1,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+4201.956421,2852,2852,1400,0,4026531840,sudo,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+4215.439862,2861,2861,1400,1000,4026531840,bash,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+4215.443272,2861,2861,1400,1000,4026531840,bash,ip-10-100-1-1,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4215.460403,2861,2861,1400,1000,4026531840,bash,ip-10-100-1-1,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4215.465139,2861,2861,1400,1000,4026531840,bash,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4248.468331,2868,2868,1400,1000,4026531840,bash,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+4248.485253,2868,2868,1400,1000,4026531840,bash,ip-10-100-1-1,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4248.503603,2868,2868,1400,1000,4026531840,bash,ip-10-100-1-1,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4248.514861,2868,2868,1400,1000,4026531840,bash,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4258.466262,2873,2873,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4258.484156,2873,2873,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4258.495703,2873,2873,1,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+4269.813777,2878,2878,1,33,4026531840,nginx,ip-10-100-1-4,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4269.824452,2878,2878,1,33,4026531840,nginx,ip-10-100-1-4,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4269.843392,2878,2878,1,33,4026531840,nginx,ip-10-100-1-4,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4302.611974,2886,2886,1,0,4026531840,rsyslogd,ip-10-100-1-1,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+4302.618598,2886,2886,1,0,4026531840,rsyslogd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+4333.754702,2895,2895,1400,1000,4026531840,bash,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+4333.773255,2895,2895,1400,1000,4026531840,bash,ip-10-100-1-4,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4333.776311,2895,2895,1400,1000,4026531840,bash,ip-10-100-1-4,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4333.782021,2895,2895,1400,1000,4026531840,bash,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4344.538661,2902,2902,1400,1000,4026531840,sudo,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4344.549251,2902,2902,1400,0,4026531840,sudo,ip-10-100-1-4,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+4344.550494,2902,2902,1400,0,4026531840,sudo,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+4359.421788,2911,2911,1,0,4026531840,cron,ip-10-100-1-1,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4359.424457,2911,2911,1,0,4026531840,cron,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+4378.212057,2915,2915,1,33,4026531840,nginx,ip-10-100-1-3,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4378.228589,2915,2915,1,33,4026531840,nginx,ip-10-100-1-3,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4378.244683,2915,2915,1,33,4026531840,nginx,ip-10-100-1-3,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4409.689863,2920,2920,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+4409.709772,2920,2920,1326,0,4026531840,sshd,ip-10-100-1-2,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2920'}]",0,0
+4409.728631,2920,2920,1326,0,4026531840,sshd,ip-10-100-1-2,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2920'}]",0,0
+4409.731319,2920,2920,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+4409.733737,2920,2920,1326,0,4026531840,sshd,ip-10-100-1-2,239,sched_process_exit,[1401],0,0,[],0,0
+4430.794988,2925,2925,1400,1000,4026531840,bash,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+4430.799409,2925,2925,1400,1000,4026531840,bash,ip-10-100-1-2,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4430.814685,2925,2925,1400,1000,4026531840,bash,ip-10-100-1-2,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4430.817495,2925,2925,1400,1000,4026531840,bash,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4457.980109,2931,2931,1400,1000,4026531840,bash,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+4457.992612,2931,2931,1400,1000,4026531840,bash,ip-10-100-1-1,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4457.993928,2931,2931,1400,1000,4026531840,bash,ip-10-100-1-1,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4458.009184,2931,2931,1400,1000,4026531840,bash,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4480.926635,2934,2934,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+4480.932619,2934,2934,1326,0,4026531840,sshd,ip-10-100-1-2,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2934'}]",0,0
+4480.940168,2934,2934,1326,0,4026531840,sshd,ip-10-100-1-2,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2934'}]",0,0
+4480.951509,2934,2934,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+4480.958146,2934,2934,1326,0,4026531840,sshd,ip-10-100-1-2,239,sched_process_exit,[1401],0,0,[],0,0
+4502.885516,2943,2943,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4502.893629,2943,2943,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4502.899121,2943,2943,1,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+4524.526246,2949,2949,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4524.541745,2949,2949,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4524.54408,2949,2949,1,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+4545.087196,2956,2956,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4545.090621,2956,2956,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4545.093337,2956,2956,1,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+4580.759963,2964,2964,1,0,4026531840,rsyslogd,ip-10-100-1-3,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+4580.764811,2964,2964,1,0,4026531840,rsyslogd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+4589.548988,2965,2965,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+4589.563429,2965,2965,1326,0,4026531840,sshd,ip-10-100-1-4,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2965'}]",0,0
+4589.57012,2965,2965,1326,0,4026531840,sshd,ip-10-100-1-4,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2965'}]",0,0
+4589.573868,2965,2965,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+4589.576755,2965,2965,1326,0,4026531840,sshd,ip-10-100-1-4,239,sched_process_exit,[1401],0,0,[],0,0
+4613.9887,2968,2968,1,0,4026531840,cron,ip-10-100-1-1,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4614.004221,2968,2968,1,0,4026531840,cron,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+4632.046187,2973,2973,1,0,4026531840,rsyslogd,ip-10-100-1-2,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+4632.051391,2973,2973,1,0,4026531840,rsyslogd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+4643.857758,2975,2975,1,33,4026531840,nginx,ip-10-100-1-4,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4643.876388,2975,2975,1,33,4026531840,nginx,ip-10-100-1-4,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4643.886443,2975,2975,1,33,4026531840,nginx,ip-10-100-1-4,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4673.318401,2977,2977,1,33,4026531840,nginx,ip-10-100-1-1,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4673.33303,2977,2977,1,33,4026531840,nginx,ip-10-100-1-1,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4673.340042,2977,2977,1,33,4026531840,nginx,ip-10-100-1-1,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4711.239873,2983,2983,1,0,4026531840,rsyslogd,ip-10-100-1-1,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+4711.255456,2983,2983,1,0,4026531840,rsyslogd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+4743.261986,2992,2992,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+4743.272402,2992,2992,1326,0,4026531840,sshd,ip-10-100-1-4,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2992'}]",0,0
+4743.278747,2992,2992,1326,0,4026531840,sshd,ip-10-100-1-4,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2992'}]",0,0
+4743.288999,2992,2992,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+4743.294565,2992,2992,1326,0,4026531840,sshd,ip-10-100-1-4,239,sched_process_exit,[1401],0,0,[],0,0
+4768.882795,2994,2994,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+4768.89407,2994,2994,1326,0,4026531840,sshd,ip-10-100-1-3,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2994'}]",0,0
+4768.899945,2994,2994,1326,0,4026531840,sshd,ip-10-100-1-3,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2994'}]",0,0
+4768.904941,2994,2994,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+4768.917156,2994,2994,1326,0,4026531840,sshd,ip-10-100-1-3,239,sched_process_exit,[1401],0,0,[],0,0
+4800.098275,2998,2998,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+4800.117487,2998,2998,1326,0,4026531840,sshd,ip-10-100-1-1,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2998'}]",0,0
+4800.134478,2998,2998,1326,0,4026531840,sshd,ip-10-100-1-1,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.2998'}]",0,0
+4800.148725,2998,2998,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+4800.160464,2998,2998,1326,0,4026531840,sshd,ip-10-100-1-1,239,sched_process_exit,[1401],0,0,[],0,0
+4826.02715,3007,3007,1400,1000,4026531840,bash,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+4826.044742,3007,3007,1400,1000,4026531840,bash,ip-10-100-1-3,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4826.062251,3007,3007,1400,1000,4026531840,bash,ip-10-100-1-3,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4826.072761,3007,3007,1400,1000,4026531840,bash,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4841.983141,3012,3012,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+4841.988359,3012,3012,1326,0,4026531840,sshd,ip-10-100-1-4,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3012'}]",0,0
+4841.992427,3012,3012,1326,0,4026531840,sshd,ip-10-100-1-4,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3012'}]",0,0
+4842.011989,3012,3012,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+4842.023967,3012,3012,1326,0,4026531840,sshd,ip-10-100-1-4,239,sched_process_exit,[1401],0,0,[],0,0
+4866.198156,3014,3014,1400,1000,4026531840,sudo,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4866.215889,3014,3014,1400,0,4026531840,sudo,ip-10-100-1-2,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+4866.22392,3014,3014,1400,0,4026531840,sudo,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+4881.284023,3020,3020,1,33,4026531840,nginx,ip-10-100-1-2,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4881.298804,3020,3020,1,33,4026531840,nginx,ip-10-100-1-2,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4881.305372,3020,3020,1,33,4026531840,nginx,ip-10-100-1-2,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+4891.794796,3029,3029,1400,1000,4026531840,bash,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+4891.806778,3029,3029,1400,1000,4026531840,bash,ip-10-100-1-2,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4891.811724,3029,3029,1400,1000,4026531840,bash,ip-10-100-1-2,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4891.822068,3029,3029,1400,1000,4026531840,bash,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4930.671021,3038,3038,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+4930.68001,3038,3038,1326,0,4026531840,sshd,ip-10-100-1-3,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3038'}]",0,0
+4930.691922,3038,3038,1326,0,4026531840,sshd,ip-10-100-1-3,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3038'}]",0,0
+4930.710756,3038,3038,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+4930.730314,3038,3038,1326,0,4026531840,sshd,ip-10-100-1-3,239,sched_process_exit,[1401],0,0,[],0,0
+4938.951313,3047,3047,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4938.962476,3047,3047,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4938.968832,3047,3047,1,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+4972.222382,3049,3049,1400,1000,4026531840,bash,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+4972.238384,3049,3049,1400,1000,4026531840,bash,ip-10-100-1-3,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4972.250997,3049,3049,1400,1000,4026531840,bash,ip-10-100-1-3,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4972.25953,3049,3049,1400,1000,4026531840,bash,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4999.660525,3052,3052,1400,1000,4026531840,bash,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+4999.678233,3052,3052,1400,1000,4026531840,bash,ip-10-100-1-2,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+4999.680692,3052,3052,1400,1000,4026531840,bash,ip-10-100-1-2,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+4999.682506,3052,3052,1400,1000,4026531840,bash,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+5009.30499,3058,3058,1,0,4026531840,rsyslogd,ip-10-100-1-4,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+5009.307131,3058,3058,1,0,4026531840,rsyslogd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5042.891562,3066,3066,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+5042.898503,3066,3066,1326,0,4026531840,sshd,ip-10-100-1-1,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3066'}]",0,0
+5042.911709,3066,3066,1326,0,4026531840,sshd,ip-10-100-1-1,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3066'}]",0,0
+5042.92666,3066,3066,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5042.93662,3066,3066,1326,0,4026531840,sshd,ip-10-100-1-1,239,sched_process_exit,[1401],0,0,[],0,0
+5052.76704,3069,3069,1,0,4026531840,rsyslogd,ip-10-100-1-4,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+5052.782934,3069,3069,1,0,4026531840,rsyslogd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5065.647434,3076,3076,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+5065.65096,3076,3076,1326,0,4026531840,sshd,ip-10-100-1-3,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3076'}]",0,0
+5065.657594,3076,3076,1326,0,4026531840,sshd,ip-10-100-1-3,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3076'}]",0,0
+5065.677437,3076,3076,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5065.682798,3076,3076,1326,0,4026531840,sshd,ip-10-100-1-3,239,sched_process_exit,[1401],0,0,[],0,0
+5096.114087,3081,3081,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+5096.129216,3081,3081,1326,0,4026531840,sshd,ip-10-100-1-2,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3081'}]",0,0
+5096.131013,3081,3081,1326,0,4026531840,sshd,ip-10-100-1-2,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3081'}]",0,0
+5096.13282,3081,3081,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5096.144811,3081,3081,1326,0,4026531840,sshd,ip-10-100-1-2,239,sched_process_exit,[1401],0,0,[],0,0
+5113.006282,3090,3090,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+5113.017037,3090,3090,1326,0,4026531840,sshd,ip-10-100-1-3,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3090'}]",0,0
+5113.027278,3090,3090,1326,0,4026531840,sshd,ip-10-100-1-3,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3090'}]",0,0
+5113.028579,3090,3090,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5113.046258,3090,3090,1326,0,4026531840,sshd,ip-10-100-1-3,239,sched_process_exit,[1401],0,0,[],0,0
+5140.248522,3095,3095,1400,1000,4026531840,sudo,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5140.256648,3095,3095,1400,0,4026531840,sudo,ip-10-100-1-1,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+5140.257722,3095,3095,1400,0,4026531840,sudo,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+5166.321806,3103,3103,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5166.337585,3103,3103,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5166.356443,3103,3103,1,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+5191.223385,3105,3105,1,0,4026531840,rsyslogd,ip-10-100-1-3,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+5191.229764,3105,3105,1,0,4026531840,rsyslogd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5216.255966,3106,3106,1400,1000,4026531840,bash,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+5216.259614,3106,3106,1400,1000,4026531840,bash,ip-10-100-1-3,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5216.273266,3106,3106,1400,1000,4026531840,bash,ip-10-100-1-3,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+5216.282796,3106,3106,1400,1000,4026531840,bash,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+5226.509688,3110,3110,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+5226.520654,3110,3110,1326,0,4026531840,sshd,ip-10-100-1-4,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3110'}]",0,0
+5226.531455,3110,3110,1326,0,4026531840,sshd,ip-10-100-1-4,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3110'}]",0,0
+5226.540244,3110,3110,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5226.558066,3110,3110,1326,0,4026531840,sshd,ip-10-100-1-4,239,sched_process_exit,[1401],0,0,[],0,0
+5235.779532,3112,3112,1,0,4026531840,rsyslogd,ip-10-100-1-4,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+5235.786915,3112,3112,1,0,4026531840,rsyslogd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5260.974483,3121,3121,1,0,4026531840,rsyslogd,ip-10-100-1-1,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+5260.980924,3121,3121,1,0,4026531840,rsyslogd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5297.903061,3126,3126,1400,1000,4026531840,bash,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+5297.910305,3126,3126,1400,1000,4026531840,bash,ip-10-100-1-3,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5297.911637,3126,3126,1400,1000,4026531840,bash,ip-10-100-1-3,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+5297.91272,3126,3126,1400,1000,4026531840,bash,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+5335.008199,3129,3129,1400,1000,4026531840,bash,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+5335.019421,3129,3129,1400,1000,4026531840,bash,ip-10-100-1-3,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5335.025202,3129,3129,1400,1000,4026531840,bash,ip-10-100-1-3,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+5335.034861,3129,3129,1400,1000,4026531840,bash,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+5370.897286,3132,3132,1400,1000,4026531840,bash,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+5370.900649,3132,3132,1400,1000,4026531840,bash,ip-10-100-1-4,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5370.90249,3132,3132,1400,1000,4026531840,bash,ip-10-100-1-4,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+5370.905761,3132,3132,1400,1000,4026531840,bash,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+5390.939215,3134,3134,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+5390.948383,3134,3134,1326,0,4026531840,sshd,ip-10-100-1-4,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3134'}]",0,0
+5390.958703,3134,3134,1326,0,4026531840,sshd,ip-10-100-1-4,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3134'}]",0,0
+5390.963846,3134,3134,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5390.975855,3134,3134,1326,0,4026531840,sshd,ip-10-100-1-4,239,sched_process_exit,[1401],0,0,[],0,0
+5399.797419,3136,3136,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5399.804204,3136,3136,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5399.82108,3136,3136,1,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+5416.997155,3140,3140,1400,1000,4026531840,bash,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+5416.998216,3140,3140,1400,1000,4026531840,bash,ip-10-100-1-4,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5417.006039,3140,3140,1400,1000,4026531840,bash,ip-10-100-1-4,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+5417.018694,3140,3140,1400,1000,4026531840,bash,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+5443.532,3146,3146,1,0,4026531840,cron,ip-10-100-1-4,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5443.539516,3146,3146,1,0,4026531840,cron,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+5470.521494,3150,3150,1,33,4026531840,nginx,ip-10-100-1-1,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+5470.536034,3150,3150,1,33,4026531840,nginx,ip-10-100-1-1,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+5470.5534,3150,3150,1,33,4026531840,nginx,ip-10-100-1-1,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+5480.62476,3159,3159,1,0,4026531840,rsyslogd,ip-10-100-1-1,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+5480.640215,3159,3159,1,0,4026531840,rsyslogd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5504.410163,3167,3167,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5504.421434,3167,3167,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5504.441274,3167,3167,1,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+5522.175863,3175,3175,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5522.179669,3175,3175,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5522.185768,3175,3175,1,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+5551.220054,3184,3184,1400,1000,4026531840,sudo,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5551.236427,3184,3184,1400,0,4026531840,sudo,ip-10-100-1-3,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+5551.247116,3184,3184,1400,0,4026531840,sudo,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+5560.113321,3187,3187,1400,1000,4026531840,sudo,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5560.120026,3187,3187,1400,0,4026531840,sudo,ip-10-100-1-3,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+5560.123267,3187,3187,1400,0,4026531840,sudo,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+5577.273004,3189,3189,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+5577.278175,3189,3189,1326,0,4026531840,sshd,ip-10-100-1-4,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3189'}]",0,0
+5577.290384,3189,3189,1326,0,4026531840,sshd,ip-10-100-1-4,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3189'}]",0,0
+5577.302615,3189,3189,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5577.314872,3189,3189,1326,0,4026531840,sshd,ip-10-100-1-4,239,sched_process_exit,[1401],0,0,[],0,0
+5598.352336,3197,3197,1,0,4026531840,rsyslogd,ip-10-100-1-3,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+5598.366429,3197,3197,1,0,4026531840,rsyslogd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5629.659987,3202,3202,1,0,4026531840,rsyslogd,ip-10-100-1-3,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+5629.670299,3202,3202,1,0,4026531840,rsyslogd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5639.231753,3206,3206,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+5639.235738,3206,3206,1326,0,4026531840,sshd,ip-10-100-1-3,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3206'}]",0,0
+5639.254123,3206,3206,1326,0,4026531840,sshd,ip-10-100-1-3,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3206'}]",0,0
+5639.270584,3206,3206,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5639.274722,3206,3206,1326,0,4026531840,sshd,ip-10-100-1-3,239,sched_process_exit,[1401],0,0,[],0,0
+5648.335785,3214,3214,1400,1000,4026531840,sudo,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5648.353805,3214,3214,1400,0,4026531840,sudo,ip-10-100-1-1,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+5648.358656,3214,3214,1400,0,4026531840,sudo,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+5684.748486,3215,3215,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+5684.764936,3215,3215,1326,0,4026531840,sshd,ip-10-100-1-2,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3215'}]",0,0
+5684.768784,3215,3215,1326,0,4026531840,sshd,ip-10-100-1-2,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3215'}]",0,0
+5684.78658,3215,3215,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5684.805649,3215,3215,1326,0,4026531840,sshd,ip-10-100-1-2,239,sched_process_exit,[1401],0,0,[],0,0
+5706.832729,3216,3216,1,0,4026531840,rsyslogd,ip-10-100-1-4,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+5706.852527,3216,3216,1,0,4026531840,rsyslogd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5746.740966,3224,3224,1,0,4026531840,cron,ip-10-100-1-1,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5746.750596,3224,3224,1,0,4026531840,cron,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+5767.946072,3227,3227,1400,1000,4026531840,sudo,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5767.953902,3227,3227,1400,0,4026531840,sudo,ip-10-100-1-2,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+5767.973205,3227,3227,1400,0,4026531840,sudo,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+5778.856294,3233,3233,1,0,4026531840,rsyslogd,ip-10-100-1-2,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+5778.868651,3233,3233,1,0,4026531840,rsyslogd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5803.088982,3238,3238,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+5803.09824,3238,3238,1326,0,4026531840,sshd,ip-10-100-1-1,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3238'}]",0,0
+5803.107108,3238,3238,1326,0,4026531840,sshd,ip-10-100-1-1,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3238'}]",0,0
+5803.11487,3238,3238,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+5803.125295,3238,3238,1326,0,4026531840,sshd,ip-10-100-1-1,239,sched_process_exit,[1401],0,0,[],0,0
+5839.699165,3240,3240,1,0,4026531840,cron,ip-10-100-1-1,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5839.704476,3240,3240,1,0,4026531840,cron,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+5878.11522,3249,3249,1,0,4026531840,cron,ip-10-100-1-4,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5878.13311,3249,3249,1,0,4026531840,cron,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+5892.419651,3253,3253,1400,1000,4026531840,sudo,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5892.427638,3253,3253,1400,0,4026531840,sudo,ip-10-100-1-1,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+5892.433293,3253,3253,1400,0,4026531840,sudo,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+5930.616703,3259,3259,1,0,4026531840,cron,ip-10-100-1-2,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5930.629594,3259,3259,1,0,4026531840,cron,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+5956.733609,3265,3265,1,0,4026531840,cron,ip-10-100-1-2,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+5956.750085,3265,3265,1,0,4026531840,cron,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+5965.928466,3273,3273,1,0,4026531840,rsyslogd,ip-10-100-1-3,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+5965.93841,3273,3273,1,0,4026531840,rsyslogd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+6003.743198,3278,3278,1400,1000,4026531840,sudo,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6003.748215,3278,3278,1400,0,4026531840,sudo,ip-10-100-1-4,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+6003.763104,3278,3278,1400,0,4026531840,sudo,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+6037.715209,3280,3280,1,0,4026531840,rsyslogd,ip-10-100-1-2,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+6037.728968,3280,3280,1,0,4026531840,rsyslogd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+6069.530732,3281,3281,1,0,4026531840,cron,ip-10-100-1-3,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6069.54532,3281,3281,1,0,4026531840,cron,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+6088.970314,3283,3283,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6088.986623,3283,3283,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6088.997877,3283,3283,1,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+6109.559132,3286,3286,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6109.560497,3286,3286,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6109.577906,3286,3286,1,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+6123.017121,3289,3289,1400,1000,4026531840,bash,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+6123.023895,3289,3289,1400,1000,4026531840,bash,ip-10-100-1-4,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6123.029213,3289,3289,1400,1000,4026531840,bash,ip-10-100-1-4,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6123.040404,3289,3289,1400,1000,4026531840,bash,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6141.644069,3292,3292,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+6141.64924,3292,3292,1326,0,4026531840,sshd,ip-10-100-1-3,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3292'}]",0,0
+6141.655731,3292,3292,1326,0,4026531840,sshd,ip-10-100-1-3,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3292'}]",0,0
+6141.657174,3292,3292,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+6141.668876,3292,3292,1326,0,4026531840,sshd,ip-10-100-1-3,239,sched_process_exit,[1401],0,0,[],0,0
+6152.656532,3301,3301,1,33,4026531840,nginx,ip-10-100-1-3,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+6152.666763,3301,3301,1,33,4026531840,nginx,ip-10-100-1-3,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+6152.684204,3301,3301,1,33,4026531840,nginx,ip-10-100-1-3,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+6164.769287,3309,3309,1,0,4026531840,rsyslogd,ip-10-100-1-4,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+6164.780537,3309,3309,1,0,4026531840,rsyslogd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+6177.735226,3314,3314,1400,1000,4026531840,sudo,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6177.736292,3314,3314,1400,0,4026531840,sudo,ip-10-100-1-1,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+6177.751252,3314,3314,1400,0,4026531840,sudo,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+6194.687104,3323,3323,1400,1000,4026531840,bash,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+6194.692659,3323,3323,1400,1000,4026531840,bash,ip-10-100-1-3,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6194.711837,3323,3323,1400,1000,4026531840,bash,ip-10-100-1-3,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6194.730858,3323,3323,1400,1000,4026531840,bash,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6231.064094,3331,3331,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+6231.070062,3331,3331,1326,0,4026531840,sshd,ip-10-100-1-3,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3331'}]",0,0
+6231.077943,3331,3331,1326,0,4026531840,sshd,ip-10-100-1-3,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3331'}]",0,0
+6231.097118,3331,3331,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+6231.112984,3331,3331,1326,0,4026531840,sshd,ip-10-100-1-3,239,sched_process_exit,[1401],0,0,[],0,0
+6246.703331,3340,3340,1400,1000,4026531840,bash,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+6246.723022,3340,3340,1400,1000,4026531840,bash,ip-10-100-1-4,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6246.727734,3340,3340,1400,1000,4026531840,bash,ip-10-100-1-4,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6246.741382,3340,3340,1400,1000,4026531840,bash,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6263.382724,3349,3349,1400,1000,4026531840,sudo,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6263.400191,3349,3349,1400,0,4026531840,sudo,ip-10-100-1-2,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+6263.412547,3349,3349,1400,0,4026531840,sudo,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+6298.512069,3355,3355,1400,1000,4026531840,bash,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+6298.525653,3355,3355,1400,1000,4026531840,bash,ip-10-100-1-3,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6298.530331,3355,3355,1400,1000,4026531840,bash,ip-10-100-1-3,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6298.536797,3355,3355,1400,1000,4026531840,bash,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6336.674016,3364,3364,1,33,4026531840,nginx,ip-10-100-1-1,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+6336.692629,3364,3364,1,33,4026531840,nginx,ip-10-100-1-1,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+6336.706539,3364,3364,1,33,4026531840,nginx,ip-10-100-1-1,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+6352.669801,3372,3372,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+6352.677101,3372,3372,1326,0,4026531840,sshd,ip-10-100-1-2,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3372'}]",0,0
+6352.691959,3372,3372,1326,0,4026531840,sshd,ip-10-100-1-2,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3372'}]",0,0
+6352.710361,3372,3372,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+6352.714725,3372,3372,1326,0,4026531840,sshd,ip-10-100-1-2,239,sched_process_exit,[1401],0,0,[],0,0
+6364.327815,3376,3376,1,0,4026531840,rsyslogd,ip-10-100-1-3,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+6364.342538,3376,3376,1,0,4026531840,rsyslogd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+6401.096685,3384,3384,1400,1000,4026531840,bash,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+6401.105643,3384,3384,1400,1000,4026531840,bash,ip-10-100-1-1,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6401.119672,3384,3384,1400,1000,4026531840,bash,ip-10-100-1-1,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6401.121236,3384,3384,1400,1000,4026531840,bash,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6414.613202,3389,3389,1,0,4026531840,cron,ip-10-100-1-2,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6414.617331,3389,3389,1,0,4026531840,cron,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+6424.287017,3393,3393,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6424.294962,3393,3393,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6424.31059,3393,3393,1,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+6456.687626,3396,3396,1400,1000,4026531840,bash,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+6456.698692,3396,3396,1400,1000,4026531840,bash,ip-10-100-1-3,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6456.717594,3396,3396,1400,1000,4026531840,bash,ip-10-100-1-3,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6456.737241,3396,3396,1400,1000,4026531840,bash,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6475.805814,3400,3400,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6475.806831,3400,3400,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6475.809816,3400,3400,1,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+6498.35951,3404,3404,1,0,4026531840,rsyslogd,ip-10-100-1-4,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+6498.373144,3404,3404,1,0,4026531840,rsyslogd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+6513.400319,3407,3407,1,33,4026531840,nginx,ip-10-100-1-3,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+6513.416882,3407,3407,1,33,4026531840,nginx,ip-10-100-1-3,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+6513.424269,3407,3407,1,33,4026531840,nginx,ip-10-100-1-3,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+6523.893303,3414,3414,1,0,4026531840,cron,ip-10-100-1-3,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6523.896393,3414,3414,1,0,4026531840,cron,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+6546.018825,3419,3419,1400,1000,4026531840,bash,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+6546.028532,3419,3419,1400,1000,4026531840,bash,ip-10-100-1-1,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6546.035322,3419,3419,1400,1000,4026531840,bash,ip-10-100-1-1,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6546.041406,3419,3419,1400,1000,4026531840,bash,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6574.360881,3426,3426,1,0,4026531840,cron,ip-10-100-1-4,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6574.370969,3426,3426,1,0,4026531840,cron,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+6593.444015,3433,3433,1,33,4026531840,nginx,ip-10-100-1-2,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+6593.451825,3433,3433,1,33,4026531840,nginx,ip-10-100-1-2,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+6593.458227,3433,3433,1,33,4026531840,nginx,ip-10-100-1-2,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+6623.48368,3435,3435,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6623.490135,3435,3435,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6623.506801,3435,3435,1,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+6632.808265,3438,3438,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6632.816752,3438,3438,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6632.821294,3438,3438,1,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+6645.36661,3439,3439,1,0,4026531840,rsyslogd,ip-10-100-1-4,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+6645.370737,3439,3439,1,0,4026531840,rsyslogd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+6669.36373,3442,3442,1400,1000,4026531840,sudo,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6669.377597,3442,3442,1400,0,4026531840,sudo,ip-10-100-1-1,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+6669.393151,3442,3442,1400,0,4026531840,sudo,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+6701.899858,3448,3448,1400,1000,4026531840,bash,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+6701.910626,3448,3448,1400,1000,4026531840,bash,ip-10-100-1-4,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6701.913309,3448,3448,1400,1000,4026531840,bash,ip-10-100-1-4,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6701.919821,3448,3448,1400,1000,4026531840,bash,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6730.673738,3449,3449,1,0,4026531840,rsyslogd,ip-10-100-1-2,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+6730.678372,3449,3449,1,0,4026531840,rsyslogd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+6765.674096,3455,3455,1,0,4026531840,rsyslogd,ip-10-100-1-4,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+6765.685002,3455,3455,1,0,4026531840,rsyslogd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+6787.558677,3459,3459,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6787.563161,3459,3459,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6787.581483,3459,3459,1,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+6813.130505,3466,3466,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6813.138627,3466,3466,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6813.154277,3466,3466,1,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+6826.83576,3471,3471,1,0,4026531840,rsyslogd,ip-10-100-1-3,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+6826.842588,3471,3471,1,0,4026531840,rsyslogd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+6860.948525,3472,3472,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+6860.965957,3472,3472,1326,0,4026531840,sshd,ip-10-100-1-2,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3472'}]",0,0
+6860.982318,3472,3472,1326,0,4026531840,sshd,ip-10-100-1-2,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3472'}]",0,0
+6860.989405,3472,3472,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+6861.009236,3472,3472,1326,0,4026531840,sshd,ip-10-100-1-2,239,sched_process_exit,[1401],0,0,[],0,0
+6882.917054,3477,3477,1,0,4026531840,cron,ip-10-100-1-2,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6882.936828,3477,3477,1,0,4026531840,cron,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+6914.244445,3484,3484,1,33,4026531840,nginx,ip-10-100-1-1,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+6914.254535,3484,3484,1,33,4026531840,nginx,ip-10-100-1-1,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+6914.272322,3484,3484,1,33,4026531840,nginx,ip-10-100-1-1,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+6945.819539,3488,3488,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6945.829297,3488,3488,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6945.837629,3488,3488,1,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+6981.081769,3497,3497,1400,1000,4026531840,bash,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+6981.093468,3497,3497,1400,1000,4026531840,bash,ip-10-100-1-3,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6981.098343,3497,3497,1400,1000,4026531840,bash,ip-10-100-1-3,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6981.104682,3497,3497,1400,1000,4026531840,bash,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+6996.401435,3500,3500,1,0,4026531840,cron,ip-10-100-1-3,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+6996.413385,3500,3500,1,0,4026531840,cron,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+7025.117247,3502,3502,1,0,4026531840,rsyslogd,ip-10-100-1-1,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+7025.123827,3502,3502,1,0,4026531840,rsyslogd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7037.599785,3507,3507,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+7037.60316,3507,3507,1326,0,4026531840,sshd,ip-10-100-1-3,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3507'}]",0,0
+7037.614956,3507,3507,1326,0,4026531840,sshd,ip-10-100-1-3,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3507'}]",0,0
+7037.634135,3507,3507,1326,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7037.642405,3507,3507,1326,0,4026531840,sshd,ip-10-100-1-3,239,sched_process_exit,[1401],0,0,[],0,0
+7072.376452,3514,3514,1400,1000,4026531840,bash,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+7072.380637,3514,3514,1400,1000,4026531840,bash,ip-10-100-1-2,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7072.385375,3514,3514,1400,1000,4026531840,bash,ip-10-100-1-2,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+7072.399131,3514,3514,1400,1000,4026531840,bash,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+7086.505253,3516,3516,1400,1000,4026531840,sudo,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7086.524057,3516,3516,1400,0,4026531840,sudo,ip-10-100-1-4,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+7086.528677,3516,3516,1400,0,4026531840,sudo,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+7109.5052,3517,3517,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+7109.506515,3517,3517,1326,0,4026531840,sshd,ip-10-100-1-2,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3517'}]",0,0
+7109.507809,3517,3517,1326,0,4026531840,sshd,ip-10-100-1-2,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3517'}]",0,0
+7109.516518,3517,3517,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7109.533146,3517,3517,1326,0,4026531840,sshd,ip-10-100-1-2,239,sched_process_exit,[1401],0,0,[],0,0
+7134.389188,3521,3521,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+7134.402057,3521,3521,1326,0,4026531840,sshd,ip-10-100-1-2,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3521'}]",0,0
+7134.412411,3521,3521,1326,0,4026531840,sshd,ip-10-100-1-2,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3521'}]",0,0
+7134.421349,3521,3521,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7134.427303,3521,3521,1326,0,4026531840,sshd,ip-10-100-1-2,239,sched_process_exit,[1401],0,0,[],0,0
+7172.308396,3523,3523,1400,1000,4026531840,sudo,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7172.313387,3523,3523,1400,0,4026531840,sudo,ip-10-100-1-3,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+7172.325745,3523,3523,1400,0,4026531840,sudo,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+7188.297553,3525,3525,1400,1000,4026531840,sudo,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7188.312062,3525,3525,1400,0,4026531840,sudo,ip-10-100-1-2,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+7188.318986,3525,3525,1400,0,4026531840,sudo,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+7216.795603,3532,3532,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+7216.803414,3532,3532,1326,0,4026531840,sshd,ip-10-100-1-2,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3532'}]",0,0
+7216.814729,3532,3532,1326,0,4026531840,sshd,ip-10-100-1-2,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3532'}]",0,0
+7216.819659,3532,3532,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7216.825246,3532,3532,1326,0,4026531840,sshd,ip-10-100-1-2,239,sched_process_exit,[1401],0,0,[],0,0
+7246.238167,3541,3541,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+7246.245405,3541,3541,1326,0,4026531840,sshd,ip-10-100-1-1,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3541'}]",0,0
+7246.247952,3541,3541,1326,0,4026531840,sshd,ip-10-100-1-1,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3541'}]",0,0
+7246.264751,3541,3541,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7246.270339,3541,3541,1326,0,4026531840,sshd,ip-10-100-1-1,239,sched_process_exit,[1401],0,0,[],0,0
+7265.460726,3547,3547,1400,1000,4026531840,bash,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+7265.469299,3547,3547,1400,1000,4026531840,bash,ip-10-100-1-4,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7265.481593,3547,3547,1400,1000,4026531840,bash,ip-10-100-1-4,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+7265.501097,3547,3547,1400,1000,4026531840,bash,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+7292.830194,3548,3548,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7292.835088,3548,3548,1,0,4026531840,sshd,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7292.854243,3548,3548,1,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+7309.546345,3557,3557,1400,1000,4026531840,sudo,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7309.557783,3557,3557,1400,0,4026531840,sudo,ip-10-100-1-2,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+7309.57115,3557,3557,1400,0,4026531840,sudo,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+7327.359729,3561,3561,1,0,4026531840,rsyslogd,ip-10-100-1-2,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+7327.36966,3561,3561,1,0,4026531840,rsyslogd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7352.450256,3570,3570,1400,1000,4026531840,sudo,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7352.452419,3570,3570,1400,0,4026531840,sudo,ip-10-100-1-3,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+7352.45998,3570,3570,1400,0,4026531840,sudo,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+7384.923366,3573,3573,1,0,4026531840,cron,ip-10-100-1-3,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7384.925962,3573,3573,1,0,4026531840,cron,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+7420.589718,3576,3576,1400,1000,4026531840,bash,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+7420.606348,3576,3576,1400,1000,4026531840,bash,ip-10-100-1-4,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7420.607733,3576,3576,1400,1000,4026531840,bash,ip-10-100-1-4,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+7420.619327,3576,3576,1400,1000,4026531840,bash,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+7459.459392,3583,3583,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+7459.474546,3583,3583,1326,0,4026531840,sshd,ip-10-100-1-2,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3583'}]",0,0
+7459.48952,3583,3583,1326,0,4026531840,sshd,ip-10-100-1-2,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3583'}]",0,0
+7459.504604,3583,3583,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7459.517982,3583,3583,1326,0,4026531840,sshd,ip-10-100-1-2,239,sched_process_exit,[1401],0,0,[],0,0
+7494.798713,3589,3589,1400,1000,4026531840,bash,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+7494.802329,3589,3589,1400,1000,4026531840,bash,ip-10-100-1-2,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7494.808537,3589,3589,1400,1000,4026531840,bash,ip-10-100-1-2,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+7494.823931,3589,3589,1400,1000,4026531840,bash,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+7519.959305,3592,3592,1,0,4026531840,rsyslogd,ip-10-100-1-2,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+7519.973574,3592,3592,1,0,4026531840,rsyslogd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7547.5441,3599,3599,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+7547.547996,3599,3599,1326,0,4026531840,sshd,ip-10-100-1-2,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3599'}]",0,0
+7547.552066,3599,3599,1326,0,4026531840,sshd,ip-10-100-1-2,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3599'}]",0,0
+7547.568558,3599,3599,1326,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7547.587578,3599,3599,1326,0,4026531840,sshd,ip-10-100-1-2,239,sched_process_exit,[1401],0,0,[],0,0
+7563.576951,3602,3602,1400,1000,4026531840,sudo,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7563.583742,3602,3602,1400,0,4026531840,sudo,ip-10-100-1-4,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+7563.590433,3602,3602,1400,0,4026531840,sudo,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+7595.88394,3610,3610,1,33,4026531840,nginx,ip-10-100-1-3,355,bind,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+7595.901726,3610,3610,1,33,4026531840,nginx,ip-10-100-1-3,221,listen,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+7595.907661,3610,3610,1,33,4026531840,nginx,ip-10-100-1-3,340,accept,[1401],1,7,"[{'name': 'fd', 'type': 'int', 'value': 6}]",0,0
+7635.879862,3614,3614,1,0,4026531840,cron,ip-10-100-1-2,379,openat,[1401],2,5,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/crontab'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7635.884315,3614,3614,1,0,4026531840,cron,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/sbin/cron'}]",0,0
+7658.419963,3623,3623,1,0,4026531840,rsyslogd,ip-10-100-1-2,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+7658.434203,3623,3623,1,0,4026531840,rsyslogd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7691.306535,3628,3628,1400,1000,4026531840,sudo,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7691.313719,3628,3628,1400,0,4026531840,sudo,ip-10-100-1-2,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+7691.333281,3628,3628,1400,0,4026531840,sudo,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+7705.822058,3633,3633,1,0,4026531840,rsyslogd,ip-10-100-1-3,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+7705.829787,3633,3633,1,0,4026531840,rsyslogd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7713.871237,3637,3637,1,0,4026531840,rsyslogd,ip-10-100-1-4,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+7713.890327,3637,3637,1,0,4026531840,rsyslogd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7737.526252,3642,3642,1,0,4026531840,rsyslogd,ip-10-100-1-2,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+7737.542832,3642,3642,1,0,4026531840,rsyslogd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7775.433216,3645,3645,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+7775.444173,3645,3645,1326,0,4026531840,sshd,ip-10-100-1-4,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3645'}]",0,0
+7775.452305,3645,3645,1326,0,4026531840,sshd,ip-10-100-1-4,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3645'}]",0,0
+7775.456722,3645,3645,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7775.475922,3645,3645,1326,0,4026531840,sshd,ip-10-100-1-4,239,sched_process_exit,[1401],0,0,[],0,0
+7786.567284,3653,3653,1400,1000,4026531840,sudo,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7786.575621,3653,3653,1400,0,4026531840,sudo,ip-10-100-1-3,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+7786.593464,3653,3653,1400,0,4026531840,sudo,ip-10-100-1-3,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+7810.180719,3657,3657,1400,1000,4026531840,bash,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+7810.191947,3657,3657,1400,1000,4026531840,bash,ip-10-100-1-1,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7810.200759,3657,3657,1400,1000,4026531840,bash,ip-10-100-1-1,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+7810.211162,3657,3657,1400,1000,4026531840,bash,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+7837.418482,3664,3664,1,0,4026531840,rsyslogd,ip-10-100-1-4,379,openat,[1401],2,4,"[{'name': 'pathname', 'type': 'const char*', 'value': '/var/log/syslog'}, {'name': 'flags', 'type': 'int', 'value': 'O_WRONLY|O_APPEND'}]",0,0
+7837.430844,3664,3664,1,0,4026531840,rsyslogd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7874.740113,3670,3670,1400,1000,4026531840,bash,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+7874.754997,3670,3670,1400,1000,4026531840,bash,ip-10-100-1-4,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7874.771998,3670,3670,1400,1000,4026531840,bash,ip-10-100-1-4,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+7874.780386,3670,3670,1400,1000,4026531840,bash,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+7901.073545,3678,3678,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7901.09239,3678,3678,1,0,4026531840,sshd,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7901.110888,3678,3678,1,0,4026531840,sshd,ip-10-100-1-2,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+7912.551711,3681,3681,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+7912.560188,3681,3681,1326,0,4026531840,sshd,ip-10-100-1-1,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3681'}]",0,0
+7912.567758,3681,3681,1326,0,4026531840,sshd,ip-10-100-1-1,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3681'}]",0,0
+7912.573548,3681,3681,1326,0,4026531840,sshd,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7912.586352,3681,3681,1326,0,4026531840,sshd,ip-10-100-1-1,239,sched_process_exit,[1401],0,0,[],0,0
+7947.565191,3685,3685,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 10}]",0,0
+7947.583838,3685,3685,1326,0,4026531840,sshd,ip-10-100-1-4,102,security_inode_unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3685'}]",0,0
+7947.60044,3685,3685,1326,0,4026531840,sshd,ip-10-100-1-4,352,unlink,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/tmp/ssh-XXXX/agent.3685'}]",0,0
+7947.607051,3685,3685,1326,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 4}]",0,0
+7947.616668,3685,3685,1326,0,4026531840,sshd,ip-10-100-1-4,239,sched_process_exit,[1401],0,0,[],0,0
+7977.395607,3687,3687,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7977.400209,3687,3687,1,0,4026531840,sshd,ip-10-100-1-3,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7977.408582,3687,3687,1,0,4026531840,sshd,ip-10-100-1-3,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+7990.658608,3690,3690,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ssh/sshd_config'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7990.66843,3690,3690,1,0,4026531840,sshd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+7990.684675,3690,3690,1,0,4026531840,sshd,ip-10-100-1-4,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 5}]",0,0
+8023.508259,3691,3691,1400,1000,4026531840,sudo,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+8023.523357,3691,3691,1400,0,4026531840,sudo,ip-10-100-1-4,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+8023.532437,3691,3691,1400,0,4026531840,sudo,ip-10-100-1-4,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+8043.60687,3697,3697,1400,1000,4026531840,sudo,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/sudoers'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+8043.607915,3697,3697,1400,0,4026531840,sudo,ip-10-100-1-2,62,setuid,[1401],1,0,"[{'name': 'uid', 'type': 'uid_t', 'value': 0}]",0,0
+8043.616086,3697,3697,1400,0,4026531840,sudo,ip-10-100-1-2,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/usr/bin/apt'}]",0,0
+8073.16557,3705,3705,1400,1000,4026531840,bash,ip-10-100-1-1,379,execve,[1401],1,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/bin/ls'}]",0,0
+8073.17642,3705,3705,1400,1000,4026531840,bash,ip-10-100-1-1,379,openat,[1401],2,3,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/ld.so.cache'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+8073.192069,3705,3705,1400,1000,4026531840,bash,ip-10-100-1-1,111,getdents64,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+8073.196162,3705,3705,1400,1000,4026531840,bash,ip-10-100-1-1,260,close,[1401],1,0,"[{'name': 'fd', 'type': 'int', 'value': 3}]",0,0
+8091.464495,3709,3709,1400,1000,4026531840,vim,ip-10-100-1-1,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/passwd'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+8105.380364,3710,3710,1400,1000,4026531840,vim,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/passwd'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+8116.860496,3711,3711,1400,1000,4026531840,vim,ip-10-100-1-2,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/passwd'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
+8154.035205,3720,3720,1,0,4026531840,backupd,ip-10-100-1-4,341,security_file_open,[1401],2,0,"[{'name': 'pathname', 'type': 'const char*', 'value': '/etc/shadow'}, {'name': 'flags', 'type': 'int', 'value': 'O_RDONLY'}]",0,0
